@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color:aliceblue;
+}
+canvas {
+  display: block;
+}
+
+*{
+  padding:10px;
+  margin:10px;
+  outline-color:red;
+  font-family: 'Castoro', serif;
+
+}
+
+#enctext{
+  padding:none;
+  color:red;
+}
+
+p{
+  margin:0px;
+}
+
+#helper{
+  padding:0px;
+  margin:0px;
+  margin-left:10px;
+  font-size:10px;
+}
+
+#dectext{
+  color:red;
+}
+
+#enctext{
+  color:blue;
+}

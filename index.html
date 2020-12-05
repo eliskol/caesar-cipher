@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8" />
+
+  <!-- metadata -->
+    <title>swag caesar cipher encoder/decoder</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">    
+    <meta name="site_name" content="easy caesar cipher">
+    <meta name="author" content="eliskol">
+    <meta name="image" content="/caesar-wheel.png">
+    <meta name="url" content="https://editor.p5js.org/eliskol/full/GOiz4gVTI">
+    <meta name="title" content="swag caesar cipher encoder/decoder">
+    <meta name="description" content="a simple caesar cipher decoder and encoder">
+    <meta name="og:site_name" content="easy caesar cipher">
+    <meta name="theme-color" content="#32353b">
+    <meta name="og:image" content="/caesar-wheel.png">
+    <meta name="og:url" content="https://editor.p5js.org/eliskol/full/GOiz4gVTI">
+    <meta name="og:title" content="swag caesar cipher encoder/decoder">
+    <meta name="og:description" content="a simple caesar cipher decoder and encoder">
+    <link rel="icon" type="image/png"  href="/caesar-wheel.png"> 
+  <!-- end of metadata -->
+  
+  
+  
+</head>
+
+<body>
+  <p>Text to encode or decode:</p>
+  <input type="text" id="text" autofocus="true"></input>
+  <p>The shift:</p>
+  
+<p id = "helper">(must be between -26 and 26)</p>
+  <input type="number" id="shift"></input>
+  </br>
+  <button onclick="encode();"> encode! </button>
+  <button onclick="decode();"> decode! </button>
+  <script src="encode.js"></script>
+  <script src="decode.js"></script>
+</body>
+
+</html>
