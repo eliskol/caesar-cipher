@@ -1,3 +1,13 @@
+/*
+To use parameters for this function:
+
+• delete var shift = ...;
+• delete var text = ...;
+
+pass in shift and text into the function, so it should look like function decode(shift, text){...}
+
+done
+*/
 function decode() {
   var shift = parseInt(document.getElementById('shift').value); 
 
