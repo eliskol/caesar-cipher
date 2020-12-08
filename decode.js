@@ -1,4 +1,6 @@
 /*
+Geppetto, I want to be a real function.
+
 To use parameters for this function:
 
 • delete var shift = ...;
