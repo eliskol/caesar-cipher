@@ -53,19 +53,20 @@ function encode() {
 
     }
 
-
-
+    var ea = document.getElementsByTagName('p')[3]; //this is the first p element after the description ones
+    
     //creates a heading for the encoded text
     var ec = document.createElement('p');
+    ec.id = "eh";
     ec.innerText = "Encoded text:";
-    document.body.appendChild(ec);
+    document.body.insertBefore(ec, ea);
 
     //pushes the encoded text to the DOM
     var encstring = String.fromCharCode.apply(null, x);
     var p = document.createElement('p');
     p.innerText = encstring;
     p.id = "enctext"
-    document.body.appendChild(p);
+    document.body.insertBefore(p, ea);
   }
 
   else {

@@ -54,18 +54,19 @@ if(shift < 26 && shift > -26){
 
     }
 
+  var ea = document.getElementsByTagName('p')[3]; //this is the first p element after the description ones
 
   //create a heading for the decoded text
   var dc = document.createElement('p');
   dc.innerText = "Decoded text:";
-  document.body.appendChild(dc);
+  document.body.insertBefore(dc, ea);
 
   //push the decoded text to the DOM
   var decstring = String.fromCharCode.apply(null, x);
   var p = document.createElement('p');
   p.innerText = decstring;
   p.id = "dectext"
-  document.body.appendChild(p);
+  document.body.insertBefore(p, ea);
 }
 
   else{
